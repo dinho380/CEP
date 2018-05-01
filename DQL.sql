@@ -4,4 +4,4 @@
 		inner join cidades as c on c.estado_sigla=e.sigla 
 		left join bairros as b on b.cidade_id = c.id
 		left join logradouros as l on l.bairro_id=b.id 
-		where l.nome like '%45055-030%' or c.cep like '%45055-030%' or l.cep like '%45055-030%';
+		where l.nome like '%VARIAVEL%' or c.cep like '%VARIAVEL%' or l.cep like '%VARIAVEL%';
